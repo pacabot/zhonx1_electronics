@@ -1,0 +1,112 @@
+# EESchema Netlist Version 1.1 created  05/02/2012 18:29:25
+(
+ ( /4F282041 $noname  P6 DIL14 {Lib=DIL14}
+  (    1 ? )
+  (    2 ? )
+  (    3 /Q )
+  (    4 /S )
+  (    5 /U )
+  (    6 /W )
+  (    7 +3.3V )
+  (    8 GND )
+  (    9 ? )
+  (   10 ? )
+  (   11 /T )
+  (   12 /R )
+  (   13 ? )
+  (   14 ? )
+ )
+ ( /4F2820B2 $noname  P4 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 /W )
+  (    3 /U )
+  (    4 /T )
+ )
+ ( /4F2820AD $noname  P3 CONN_4 {Lib=CONN_4}
+  (    1 /S )
+  (    2 /R )
+  (    3 /Q )
+  (    4 /H )
+ )
+ ( /4F2820A7 $noname  P2 CONN_4 {Lib=CONN_4}
+  (    1 /G )
+  (    2 /F )
+  (    3 /E )
+  (    4 /D )
+ )
+ ( /4F28209F $noname  P1 CONN_4 {Lib=CONN_4}
+  (    1 /C )
+  (    2 /B )
+  (    3 /A )
+  (    4 +5V )
+ )
+ ( /4F28203D $noname  P5 DIL14 {Lib=DIL14}
+  (    1 +5V )
+  (    2 /A )
+  (    3 /C )
+  (    4 /E )
+  (    5 /G )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 /H )
+  (   11 /F )
+  (   12 /D )
+  (   13 /B )
+  (   14 GND )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ P6 8
+ P4 1
+ P5 14
+Net 2 "+5V" "+5V"
+ P5 1
+ P1 4
+Net 3 "/B" "B"
+ P1 2
+ P5 13
+Net 4 "/D" "D"
+ P5 12
+ P2 4
+Net 5 "/F" "F"
+ P5 11
+ P2 2
+Net 6 "/H" "H"
+ P3 4
+ P5 10
+Net 11 "/G" "G"
+ P5 5
+ P2 1
+Net 12 "/E" "E"
+ P2 3
+ P5 4
+Net 13 "/C" "C"
+ P1 1
+ P5 3
+Net 14 "/A" "A"
+ P1 3
+ P5 2
+Net 15 "/W" "W"
+ P6 6
+ P4 2
+Net 16 "/U" "U"
+ P6 5
+ P4 3
+Net 17 "/S" "S"
+ P3 1
+ P6 4
+Net 18 "/Q" "Q"
+ P3 3
+ P6 3
+Net 26 "/R" "R"
+ P6 12
+ P3 2
+Net 27 "/T" "T"
+ P6 11
+ P4 4
+}
+#End
